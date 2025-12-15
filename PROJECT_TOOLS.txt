@@ -1,0 +1,6 @@
+Backend: Flutter SDK, Dart SDK, Material Design 3, JSON parsing, File I/O operations.
+Frontend: Flutter Widgets, StatefulWidget, Navigator routing, Custom gradient widgets, Material Design 3 components.
+Dependencies: image_picker (camera/gallery), shared_preferences (local storage), path_provider (file paths), path (path utilities), cupertino_icons (UI icons).
+DevOps/Config: pubspec.yaml (dependency management), AndroidManifest.xml (Android permissions), assets/data.json (ingredient database).
+Supporting Assets: assets/data.json (halal/haram ingredient database with keywords, status, confidence, reason, category, source).
+Tooling & Collaboration Environment: Daily development occurs inside the Cursor IDE, leveraging its AI-assisted code completion and inline chat to build Flutter screens, services, and widgets efficiently. Code is version-controlled with Git. Flutter CLI and Dart Analyzer handle build processes and linting. Android Studio/VS Code used for debugging and hot reload during development. Flutter Lints ensures code quality and best practices.

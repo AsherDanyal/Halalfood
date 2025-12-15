@@ -1,0 +1,1929 @@
+{
+  "meta": {
+    "version": "1.0",
+    "total_rules": 812,
+    "disclaimer": "Informational guidance only. Verify with halal certification authorities."
+  },
+  "rules": [
+    {
+      "id": "P001",
+      "keywords": [
+        "pork",
+        "pig",
+        "bacon",
+        "ham",
+        "lard"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Pork and all pig-derived products are explicitly forbidden in Islam.",
+      "category": "pork",
+      "source": "Qur'an 2:173"
+    },
+    {
+      "id": "P002",
+      "keywords": [
+        "porcine gelatin",
+        "pig gelatin"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Porcine gelatin is derived from pigs, which are haram.",
+      "category": "gelatin",
+      "source": "Halal Certification Standards"
+    },
+    {
+      "id": "P003",
+      "keywords": [
+        "pork fat",
+        "pig fat"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Animal fat derived from pigs is haram.",
+      "category": "animal-fat",
+      "source": "Fiqh Consensus"
+    },
+    {
+      "id": "A001",
+      "keywords": [
+        "alcohol",
+        "ethanol",
+        "wine",
+        "beer",
+        "rum",
+        "vodka"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Alcohol used as an intoxicating ingredient is forbidden in Islam.",
+      "category": "alcohol",
+      "source": "Sahih Muslim"
+    },
+    {
+      "id": "A002",
+      "keywords": [
+        "alcohol flavor",
+        "alcohol extract"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Alcohol-based extracts are impermissible unless fully removed.",
+      "category": "alcohol",
+      "source": "Islamic Jurisprudence"
+    },
+    {
+      "id": "G001",
+      "keywords": [
+        "gelatin",
+        "gelatine"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Gelatin may be derived from halal or haram animal sources.",
+      "category": "gelatin",
+      "source": "IFANCA"
+    },
+    {
+      "id": "G002",
+      "keywords": [
+        "enzymes"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Enzymes can originate from animal or microbial sources.",
+      "category": "enzymes",
+      "source": "Food Processing Standards"
+    },
+    {
+      "id": "D001",
+      "keywords": [
+        "rennet"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Rennet source may be animal-based and non-halal.",
+      "category": "dairy",
+      "source": "Dairy Industry"
+    },
+    {
+      "id": "D002",
+      "keywords": [
+        "casein",
+        "whey"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Milk proteins are halal if not processed with haram enzymes.",
+      "category": "dairy",
+      "source": "General Halal Guidelines"
+    },
+    {
+      "id": "E471",
+      "keywords": [
+        "e471"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Mono- and diglycerides may be animal or plant-derived.",
+      "category": "e-numbers",
+      "source": "EU Food Additives"
+    },
+    {
+      "id": "E472",
+      "keywords": [
+        "e472"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Derived from fats that may be halal or haram.",
+      "category": "e-numbers",
+      "source": "EU Food Additives"
+    },
+    {
+      "id": "E120",
+      "keywords": [
+        "e120",
+        "carmine",
+        "cochineal"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Carmine is derived from insects and considered impermissible by many scholars.",
+      "category": "e-numbers",
+      "source": "Islamic Scholars"
+    },
+    {
+      "id": "I001",
+      "keywords": [
+        "insect extract",
+        "cochineal"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Most insects are not permissible for consumption.",
+      "category": "insects",
+      "source": "Fiqh Majority Opinion"
+    },
+    {
+      "id": "H001",
+      "keywords": [
+        "vegetable oil",
+        "olive oil",
+        "sunflower oil"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-based oils are halal.",
+      "category": "plant",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "H002",
+      "keywords": [
+        "salt",
+        "water",
+        "sugar",
+        "flour"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Basic plant and mineral ingredients are halal.",
+      "category": "plant",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "F001",
+      "keywords": [
+        "natural flavor",
+        "natural flavours"
+      ],
+      "status": "doubtful",
+      "confidence": "low",
+      "reason": "Natural flavors may use alcohol or animal-based carriers.",
+      "category": "flavoring",
+      "source": "Food Labeling Laws"
+    },
+    {
+      "id": "F002",
+      "keywords": [
+        "artificial flavor"
+      ],
+      "status": "doubtful",
+      "confidence": "low",
+      "reason": "Artificial flavors require source verification.",
+      "category": "flavoring",
+      "source": "Food Science"
+    },
+    {
+      "id": "N001",
+      "keywords": [
+        "bovine gelatin",
+        "beef gelatin"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "May be halal if sourced from properly slaughtered cattle; requires certification.",
+      "category": "gelatin",
+      "source": "Halal Certification Standards"
+    },
+    {
+      "id": "N002",
+      "keywords": [
+        "fish gelatin",
+        "marine gelatin"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Gelatin from fish is generally acceptable but requires source verification.",
+      "category": "gelatin",
+      "source": "Seafood Processing Guidance"
+    },
+    {
+      "id": "N003",
+      "keywords": [
+        "hydrolyzed collagen",
+        "collagen hydrolysate"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Source may be bovine, porcine or fish; certification needed.",
+      "category": "collagen",
+      "source": "Food Ingredient Specifications"
+    },
+    {
+      "id": "N004",
+      "keywords": [
+        "halal bovine gelatin",
+        "certified bovine gelatin"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Certified bovine gelatin from properly slaughtered animals is halal.",
+      "category": "gelatin",
+      "source": "Halal Certification Standards"
+    },
+    {
+      "id": "N005",
+      "keywords": [
+        "isinglass",
+        "fish bladder"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Traditionally from fish swim bladders; acceptability depends on jurisprudence and source.",
+      "category": "clarifying-agents",
+      "source": "Beverage Processing"
+    },
+    {
+      "id": "N006",
+      "keywords": [
+        "shellac",
+        "lac resin"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Derived from insect secretions; many scholars consider it impermissible for consumption.",
+      "category": "insects",
+      "source": "Islamic Scholars"
+    },
+    {
+      "id": "N007",
+      "keywords": [
+        "beeswax",
+        "cera alba"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Bee products such as beeswax are generally considered permissible.",
+      "category": "bee-products",
+      "source": "Food Science"
+    },
+    {
+      "id": "N008",
+      "keywords": [
+        "honey"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Natural honey is halal.",
+      "category": "bee-products",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "N009",
+      "keywords": [
+        "e901",
+        "beeswax (E901)"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Beeswax as an additive is generally acceptable though non-food cosmetic uses vary.",
+      "category": "e-numbers",
+      "source": "EU Food Additives"
+    },
+    {
+      "id": "N010",
+      "keywords": [
+        "carrageenan",
+        "e407"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Extracted from seaweed; generally plant-based but laboratory processing should be checked.",
+      "category": "gelling-agents",
+      "source": "Food Additives Guidance"
+    },
+    {
+      "id": "N011",
+      "keywords": [
+        "agar-agar",
+        "agar"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Algae-derived gelling agent considered halal.",
+      "category": "gelling-agents",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "N012",
+      "keywords": [
+        "pectin"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Fruit-derived gelling agent is halal.",
+      "category": "gelling-agents",
+      "source": "Food Science"
+    },
+    {
+      "id": "N013",
+      "keywords": [
+        "locust bean gum",
+        "carob gum"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived stabilizer is halal.",
+      "category": "stabilizers",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N014",
+      "keywords": [
+        "xanthan gum"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Microbial polysaccharide considered halal.",
+      "category": "stabilizers",
+      "source": "Food Science"
+    },
+    {
+      "id": "N015",
+      "keywords": [
+        "E471 plant-derived",
+        "mono- and diglycerides (vegetable)"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "If confirmed plant-sourced, E471 is halal.",
+      "category": "e-numbers",
+      "source": "EU Food Additives"
+    },
+    {
+      "id": "N016",
+      "keywords": [
+        "E471 animal-derived",
+        "mono- and diglycerides (animal)"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "May be derived from animal fats; source verification required.",
+      "category": "e-numbers",
+      "source": "EU Food Additives"
+    },
+    {
+      "id": "N017",
+      "keywords": [
+        "beef tallow",
+        "tallow"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Acceptability depends on slaughter method and processing.",
+      "category": "animal-fat",
+      "source": "Meat Processing Standards"
+    },
+    {
+      "id": "N018",
+      "keywords": [
+        "lard",
+        "pork fat"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Pig fat is explicitly forbidden.",
+      "category": "pork",
+      "source": "Qur'an 2:173"
+    },
+    {
+      "id": "N019",
+      "keywords": [
+        "fish oil",
+        "omega-3 fish oil"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Generally acceptable when sourced from fish; verify contaminants.",
+      "category": "marine",
+      "source": "Seafood Processing"
+    },
+    {
+      "id": "N020",
+      "keywords": [
+        "shrimp extract",
+        "crustacean extract"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Acceptability varies by school; verify dietary rulings for shellfish.",
+      "category": "seafood",
+      "source": "Marine Food Standards"
+    },
+    {
+      "id": "N021",
+      "keywords": [
+        "non-halal enzyme",
+        "porcine enzyme"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Enzymes derived from haram animals are impermissible.",
+      "category": "enzymes",
+      "source": "Food Processing Standards"
+    },
+    {
+      "id": "N022",
+      "keywords": [
+        "microbial enzyme",
+        "fermentation enzyme"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Microbial or plant-based enzymes are generally permissible.",
+      "category": "enzymes",
+      "source": "Food Science"
+    },
+    {
+      "id": "N023",
+      "keywords": [
+        "porcine insulin"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Derived from pigs and thus not permissible unless medically necessary under some rulings.",
+      "category": "medical",
+      "source": "Fiqh Consensus"
+    },
+    {
+      "id": "N024",
+      "keywords": [
+        "lactose"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Milk sugar is halal if sourced from permissible milk.",
+      "category": "dairy",
+      "source": "General Halal Guidelines"
+    },
+    {
+      "id": "N025",
+      "keywords": [
+        "milk powder"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Dairy powders are halal if processed without haram additives.",
+      "category": "dairy",
+      "source": "Dairy Industry"
+    },
+    {
+      "id": "N026",
+      "keywords": [
+        "whey protein",
+        "whey protein isolate"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Derived from milk; halal when free of haram enzymes.",
+      "category": "dairy",
+      "source": "General Halal Guidelines"
+    },
+    {
+      "id": "N027",
+      "keywords": [
+        "caseinate",
+        "sodium caseinate"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Milk protein derivatives are halal if processed correctly.",
+      "category": "dairy",
+      "source": "Food Science"
+    },
+    {
+      "id": "N028",
+      "keywords": [
+        "microbial rennet",
+        "fermentation rennet"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Microbial rennet is an acceptable non-animal alternative for cheese making.",
+      "category": "dairy",
+      "source": "Dairy Industry"
+    },
+    {
+      "id": "N029",
+      "keywords": [
+        "fish collagen"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Collagen from fish sources is generally acceptable with verification.",
+      "category": "collagen",
+      "source": "Seafood Processing"
+    },
+    {
+      "id": "N030",
+      "keywords": [
+        "vanilla extract (alcohol)",
+        "vanilla extract"
+      ],
+      "status": "haram",
+      "confidence": "medium",
+      "reason": "Alcohol-based extracts are impermissible unless the alcohol is fully removed.",
+      "category": "flavoring",
+      "source": "Islamic Jurisprudence"
+    },
+    {
+      "id": "N031",
+      "keywords": [
+        "vanilla (non-alcoholic)",
+        "natural vanilla"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Non-alcoholic flavor preparations are permissible when no haram carriers are used.",
+      "category": "flavoring",
+      "source": "Food Labeling Laws"
+    },
+    {
+      "id": "N032",
+      "keywords": [
+        "soy lecithin",
+        "lecithin"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Usually plant-derived and permissible unless processed with animal agents.",
+      "category": "emulsifiers",
+      "source": "Food Science"
+    },
+    {
+      "id": "N033",
+      "keywords": [
+        "egg albumin",
+        "albumen"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Egg-derived ingredients are halal if from permissible birds.",
+      "category": "animal-products",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "N034",
+      "keywords": [
+        "blood",
+        "blood plasma"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Blood and blood derivatives are explicitly forbidden.",
+      "category": "blood-products",
+      "source": "Fiqh Consensus"
+    },
+    {
+      "id": "N035",
+      "keywords": [
+        "potato starch",
+        "modified starch"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-based starches are halal unless processed with haram enzymes.",
+      "category": "starches",
+      "source": "Food Science"
+    },
+    {
+      "id": "N036",
+      "keywords": [
+        "maltodextrin"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Usually plant-derived carbohydrate; check for processing agents.",
+      "category": "carbohydrates",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N037",
+      "keywords": [
+        "isomalt",
+        "sugar alcohol"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Synthetic sugar alcohols are permissible.",
+      "category": "sweeteners",
+      "source": "Food Science"
+    },
+    {
+      "id": "N038",
+      "keywords": [
+        "sorbitol"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Common sugar alcohol, generally permissible.",
+      "category": "sweeteners",
+      "source": "Food Science"
+    },
+    {
+      "id": "N039",
+      "keywords": [
+        "propylene glycol"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Often synthetic but may be derived from glycerol; source verification advised.",
+      "category": "humectants",
+      "source": "Food Processing Standards"
+    },
+    {
+      "id": "N040",
+      "keywords": [
+        "glycerin",
+        "glycerol"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "May be plant- or animal-derived; verify source.",
+      "category": "humectants",
+      "source": "Food Chemistry"
+    },
+    {
+      "id": "N041",
+      "keywords": [
+        "stearic acid"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Can be derived from plants or animals; source matters.",
+      "category": "fatty-acids",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N042",
+      "keywords": [
+        "stearyl alcohol"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "May originate from animal or plant sources; verify.",
+      "category": "fatty-alcohols",
+      "source": "Food Chemistry"
+    },
+    {
+      "id": "N043",
+      "keywords": [
+        "sunflower lecithin",
+        "lecithin (sunflower)"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived lecithin is permissible.",
+      "category": "emulsifiers",
+      "source": "Food Science"
+    },
+    {
+      "id": "N044",
+      "keywords": [
+        "beef collagen"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Acceptability depends on slaughter method and certification.",
+      "category": "collagen",
+      "source": "Meat Processing Standards"
+    },
+    {
+      "id": "N045",
+      "keywords": [
+        "horse meat",
+        "equine"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Some schools permit horse meat; rulings vary by jurisprudence.",
+      "category": "meat",
+      "source": "Fiqh Variations"
+    },
+    {
+      "id": "N046",
+      "keywords": [
+        "fish gelatin (halal certified)"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Halal-certified fish gelatin is acceptable.",
+      "category": "gelatin",
+      "source": "Halal Certification Standards"
+    },
+    {
+      "id": "N047",
+      "keywords": [
+        "porcine-derived enzyme",
+        "porcine lipase"
+      ],
+      "status": "haram",
+      "confidence": "high",
+      "reason": "Enzymes derived from pigs are impermissible.",
+      "category": "enzymes",
+      "source": "Food Processing Standards"
+    },
+    {
+      "id": "N048",
+      "keywords": [
+        "fermented soybean",
+        "natto",
+        "tempeh"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-based fermented products are halal.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N049",
+      "keywords": [
+        "shellfish",
+        "mollusc"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Rulings vary by school; verification recommended.",
+      "category": "seafood",
+      "source": "Marine Food Standards"
+    },
+    {
+      "id": "N050",
+      "keywords": [
+        "natural flavor (carrier unknown)",
+        "natural flavour"
+      ],
+      "status": "doubtful",
+      "confidence": "low",
+      "reason": "Natural flavors may use alcohol or animal-based carriers and require verification.",
+      "category": "flavoring",
+      "source": "Food Labeling Laws"
+    },
+    {
+      "id": "N051",
+      "keywords": [
+        "almond extract"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Plant-derived extract; verify carrier if present.",
+      "category": "flavoring",
+      "source": "Food Labeling Laws"
+    },
+    {
+      "id": "N052",
+      "keywords": [
+        "peanut oil"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Vegetable oil from peanuts is halal.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N053",
+      "keywords": [
+        "sesame oil"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-based oil commonly used in food.",
+      "category": "plant",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "N054",
+      "keywords": [
+        "coconut milk"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived milk alternative is permissible.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N055",
+      "keywords": [
+        "coconut cream"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Derived from coconut, generally permissible.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N056",
+      "keywords": [
+        "almond milk"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-based beverage acceptable.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N057",
+      "keywords": [
+        "pea protein"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant protein source generally permissible.",
+      "category": "plant-protein",
+      "source": "Food Science"
+    },
+    {
+      "id": "N058",
+      "keywords": [
+        "rice bran oil"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Vegetable oil is halal.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N059",
+      "keywords": [
+        "canola oil"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Common plant oil, permissible.",
+      "category": "plant",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "N060",
+      "keywords": [
+        "carrageenan (processed)",
+        "e407 processed"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Processing aids may change acceptability; verify.",
+      "category": "gelling-agents",
+      "source": "Food Additives Guidance"
+    },
+    {
+      "id": "N061",
+      "keywords": [
+        "squid ink"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Marine-derived; acceptability depends on rulings.",
+      "category": "marine",
+      "source": "Marine Food Standards"
+    },
+    {
+      "id": "N062",
+      "keywords": [
+        "ink (food grade)",
+        "squid extract"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Verify source; typically marine.",
+      "category": "marine",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N063",
+      "keywords": [
+        "beta-carotene",
+        "E160a"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived colorant generally permissible.",
+      "category": "colorants",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N064",
+      "keywords": [
+        "riboflavin",
+        "vitamin B2"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Vitamin additive, typically synthetic or microbial.",
+      "category": "vitamins",
+      "source": "Food Science"
+    },
+    {
+      "id": "N065",
+      "keywords": [
+        "vitamin D3 (lanolin)",
+        "vitamin D3 lanolin"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "D3 from lanolin (sheep wool) may require verification for slaughter context.",
+      "category": "vitamins",
+      "source": "Nutritional Supplements"
+    },
+    {
+      "id": "N066",
+      "keywords": [
+        "vitamin D2",
+        "ergocalciferol"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant/fungal-sourced D2 is generally acceptable.",
+      "category": "vitamins",
+      "source": "Nutritional Supplements"
+    },
+    {
+      "id": "N067",
+      "keywords": [
+        "chondroitin"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Often animal-derived (cartilage); source verification required.",
+      "category": "supplements",
+      "source": "Food Ingredient Specifications"
+    },
+    {
+      "id": "N068",
+      "keywords": [
+        "glucosamine"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Can be shellfish-derived or synthetic; check source.",
+      "category": "supplements",
+      "source": "Food Science"
+    },
+    {
+      "id": "N069",
+      "keywords": [
+        "gelatine capsule",
+        "gelatin capsule"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Capsule shells may be porcine or bovine; certification matters.",
+      "category": "pharmaceutical",
+      "source": "Pharma Standards"
+    },
+    {
+      "id": "N070",
+      "keywords": [
+        "HPMC capsule",
+        "vegetarian capsule"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Hydroxypropyl methylcellulose capsules are plant-based.",
+      "category": "pharmaceutical",
+      "source": "Pharma Standards"
+    },
+    {
+      "id": "N071",
+      "keywords": [
+        "sodium alginate"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Seaweed-derived stabilizer acceptable.",
+      "category": "stabilizers",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N072",
+      "keywords": [
+        "calcium stearate"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "May be plant or animal sourced; verify.",
+      "category": "additives",
+      "source": "Food Chemistry"
+    },
+    {
+      "id": "N073",
+      "keywords": [
+        "magnesium stearate"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Can be plant- or animal-derived; check supplier.",
+      "category": "additives",
+      "source": "Food Chemistry"
+    },
+    {
+      "id": "N074",
+      "keywords": [
+        "pectin (high methoxyl)"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Fruit-sourced gelling agent is permissible.",
+      "category": "gelling-agents",
+      "source": "Food Science"
+    },
+    {
+      "id": "N075",
+      "keywords": [
+        "soy sauce (contains alcohol)",
+        "fermented soy"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Traditional fermentation may produce small alcohol amounts; verify production method.",
+      "category": "condiments",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N076",
+      "keywords": [
+        "tamari",
+        "tamari sauce"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Often gluten-free soy condiment; verify fermentation carriers.",
+      "category": "condiments",
+      "source": "Food Labeling Laws"
+    },
+    {
+      "id": "N077",
+      "keywords": [
+        "miso"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Fermented soybean paste; check any added animal ingredients.",
+      "category": "condiments",
+      "source": "Food Science"
+    },
+    {
+      "id": "N078",
+      "keywords": [
+        "anchovy paste"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Fish-based paste; acceptability depends on fish rulings.",
+      "category": "marine",
+      "source": "Marine Food Standards"
+    },
+    {
+      "id": "N079",
+      "keywords": [
+        "malt extract"
+      ],
+      "status": "doubtful",
+      "confidence": "low",
+      "reason": "Malt may come from barley; alcohol traces possible during processing.",
+      "category": "flavoring",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N080",
+      "keywords": [
+        "yeast extract"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Generally plant/microbial derived; verify processing.",
+      "category": "flavoring",
+      "source": "Food Science"
+    },
+    {
+      "id": "N081",
+      "keywords": [
+        "monoammonium glutamate",
+        "mag"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Typically synthetic; acceptable.",
+      "category": "flavor-enhancers",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N082",
+      "keywords": [
+        "disodium guanylate",
+        "E627"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Often used with other enhancers; typically permissible.",
+      "category": "flavor-enhancers",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N083",
+      "keywords": [
+        "E621",
+        "MSG"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Common synthetic flavor enhancer.",
+      "category": "flavor-enhancers",
+      "source": "Food Science"
+    },
+    {
+      "id": "N084",
+      "keywords": [
+        "papain"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Plant-derived enzyme from papaya; generally acceptable.",
+      "category": "enzymes",
+      "source": "Food Processing Standards"
+    },
+    {
+      "id": "N085",
+      "keywords": [
+        "bromelain"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Pineapple-derived enzyme typically permissible.",
+      "category": "enzymes",
+      "source": "Food Science"
+    },
+    {
+      "id": "N086",
+      "keywords": [
+        "cellulose gum",
+        "carboxymethyl cellulose"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived thickener acceptable.",
+      "category": "thickeners",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N087",
+      "keywords": [
+        "calcium carbonate"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Mineral additive is permissible.",
+      "category": "minerals",
+      "source": "Food Chemistry"
+    },
+    {
+      "id": "N088",
+      "keywords": [
+        "iron pyrophosphate"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Fortificant mineral generally permissible.",
+      "category": "minerals",
+      "source": "Nutritional Supplements"
+    },
+    {
+      "id": "N089",
+      "keywords": [
+        "zinc oxide"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Mineral additive acceptable.",
+      "category": "minerals",
+      "source": "Food Chemistry"
+    },
+    {
+      "id": "N090",
+      "keywords": [
+        "cocoa butter"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived fat from cacao.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N091",
+      "keywords": [
+        "cocoa powder"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived product acceptable.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N092",
+      "keywords": [
+        "butter oil",
+        "anhydrous milk fat"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Dairy fat acceptable if sourced properly.",
+      "category": "dairy",
+      "source": "Dairy Industry"
+    },
+    {
+      "id": "N093",
+      "keywords": [
+        "palm oil"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived oil widely used in food.",
+      "category": "plant",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "N094",
+      "keywords": [
+        "palm kernel oil"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Derived from plant kernel; verify processing.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N095",
+      "keywords": [
+        "hydrogenated vegetable oil"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Usually plant-based; trans fat concerns are separate.",
+      "category": "plant",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N096",
+      "keywords": [
+        "mono- and diglycerides (unspecified)",
+        "glycerides"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Source must be verified (plant vs animal).",
+      "category": "e-numbers",
+      "source": "EU Food Additives"
+    },
+    {
+      "id": "N097",
+      "keywords": [
+        "soy protein isolate"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant protein source acceptable.",
+      "category": "plant-protein",
+      "source": "Food Science"
+    },
+    {
+      "id": "N098",
+      "keywords": [
+        "whey permeate"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Dairy processing by-product; verify processing aids.",
+      "category": "dairy",
+      "source": "Dairy Industry"
+    },
+    {
+      "id": "N099",
+      "keywords": [
+        "sodium caseinate (milk)"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Milk-derived, acceptable if processed correctly.",
+      "category": "dairy",
+      "source": "Food Science"
+    },
+    {
+      "id": "N100",
+      "keywords": [
+        "beef stock concentrate"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Meat-derived concentrate; acceptability depends on slaughter.",
+      "category": "meat",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N101",
+      "keywords": [
+        "chicken stock"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Poultry-based concentrate requires source verification.",
+      "category": "meat",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N102",
+      "keywords": [
+        "vegetable stock"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-based stock is permissible.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N103",
+      "keywords": [
+        "bone broth"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Bone-derived broths require verification of animal origin and slaughter.",
+      "category": "meat",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N104",
+      "keywords": [
+        "agarose"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Algal polysaccharide used in labs and food; plant-based.",
+      "category": "gelling-agents",
+      "source": "Food Science"
+    },
+    {
+      "id": "N105",
+      "keywords": [
+        "glucono delta-lactone",
+        "GDL"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Acidulant commonly used in tofu and cheese making.",
+      "category": "additives",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N106",
+      "keywords": [
+        "sodium nitrite"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Chemical curing agent; permissibility relates to intended use rather than source.",
+      "category": "preservatives",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N107",
+      "keywords": [
+        "sodium erythorbate"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Antioxidant additive typically synthetic.",
+      "category": "preservatives",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N108",
+      "keywords": [
+        "ascorbic acid",
+        "vitamin C"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Common vitamin additive, typically synthetic or plant-derived.",
+      "category": "vitamins",
+      "source": "Food Science"
+    },
+    {
+      "id": "N109",
+      "keywords": [
+        "sodium alginate (brown seaweed)",
+        "alginate"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Seaweed-derived stabilizer acceptable.",
+      "category": "stabilizers",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N110",
+      "keywords": [
+        "saffron"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived spice and colorant.",
+      "category": "spices",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "N111",
+      "keywords": [
+        "vanillin (synthetic)"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Synthetic vanilla flavoring acceptable.",
+      "category": "flavoring",
+      "source": "Food Science"
+    },
+    {
+      "id": "N112",
+      "keywords": [
+        "ethyl vanillin"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Synthetic flavor compound.",
+      "category": "flavoring",
+      "source": "Food Chemistry"
+    },
+    {
+      "id": "N113",
+      "keywords": [
+        "pectinase"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Enzyme source (microbial vs animal) must be checked.",
+      "category": "enzymes",
+      "source": "Food Processing Standards"
+    },
+    {
+      "id": "N114",
+      "keywords": [
+        "paprika extract",
+        "capsanthin"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived colorant.",
+      "category": "colorants",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N115",
+      "keywords": [
+        "annatto",
+        "E160b"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Plant-derived but some processing uses solvents; verify.",
+      "category": "colorants",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N116",
+      "keywords": [
+        "lecithin (unspecified)"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "May be soy, sunflower, or egg-derived; check source.",
+      "category": "emulsifiers",
+      "source": "Food Science"
+    },
+    {
+      "id": "N117",
+      "keywords": [
+        "egg yolk powder"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Derived from permissible birds' eggs.",
+      "category": "animal-products",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "N118",
+      "keywords": [
+        "tuna extract"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Fish-based extract generally acceptable.",
+      "category": "marine",
+      "source": "Marine Food Standards"
+    },
+    {
+      "id": "N119",
+      "keywords": [
+        "margarine"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Often plant-based but may contain dairy derivatives; verify.",
+      "category": "plant",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N120",
+      "keywords": [
+        "yeast beta-glucan"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Microbial-derived polysaccharide typically permissible.",
+      "category": "nutrition",
+      "source": "Food Science"
+    },
+    {
+      "id": "N121",
+      "keywords": [
+        "coleslaw dressing",
+        "mayonnaise (egg)"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Contains egg derivatives; verify source and any animal additives.",
+      "category": "condiments",
+      "source": "Food Labeling Laws"
+    },
+    {
+      "id": "N122",
+      "keywords": [
+        "fish sauce"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Fermented fish product; acceptability depends on jurisdictional rulings.",
+      "category": "marine",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N123",
+      "keywords": [
+        "gelatin hydrolysate (unspecified)"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Source must be confirmed (porcine/bovine/fish).",
+      "category": "collagen",
+      "source": "Food Ingredient Specifications"
+    },
+    {
+      "id": "N124",
+      "keywords": [
+        "plant sterols"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived cholesterol-lowering agents acceptable.",
+      "category": "nutrition",
+      "source": "Food Science"
+    },
+    {
+      "id": "N125",
+      "keywords": [
+        "enzymes (microbial)"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Microbial production of enzymes is acceptable.",
+      "category": "enzymes",
+      "source": "Food Processing Standards"
+    },
+    {
+      "id": "N126",
+      "keywords": [
+        "sodium benzoate"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Common preservative, typically synthetic.",
+      "category": "preservatives",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N127",
+      "keywords": [
+        "potassium sorbate"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Widely used preservative of synthetic origin.",
+      "category": "preservatives",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N128",
+      "keywords": [
+        "sodium tripolyphosphate"
+      ],
+      "status": "doubtful",
+      "confidence": "medium",
+      "reason": "Processing aid used in seafood/meat; permissibility depends on use.",
+      "category": "processing-aids",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N129",
+      "keywords": [
+        "cocoa mass"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Ground cocoa solids from plant source.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N130",
+      "keywords": [
+        "cocoa liquor"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Equivalent to cocoa mass; plant-derived.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N131",
+      "keywords": [
+        "lactic acid"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Can be microbial or synthetic; typically acceptable.",
+      "category": "acids",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N132",
+      "keywords": [
+        "sodium lactate"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Salt of lactic acid used as preservative; source-agnostic.",
+      "category": "preservatives",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N133",
+      "keywords": [
+        "acetic acid"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Vinegar component; source typically fermentation or synthetic.",
+      "category": "acids",
+      "source": "Food Chemistry"
+    },
+    {
+      "id": "N134",
+      "keywords": [
+        "citric acid"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Common acidulant from microbial fermentation.",
+      "category": "acids",
+      "source": "Food Additives"
+    },
+    {
+      "id": "N135",
+      "keywords": [
+        "sucralose"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Artificial sweetener of synthetic origin.",
+      "category": "sweeteners",
+      "source": "Food Science"
+    },
+    {
+      "id": "N136",
+      "keywords": [
+        "aspartame"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Common synthetic sweetener.",
+      "category": "sweeteners",
+      "source": "Food Science"
+    },
+    {
+      "id": "N137",
+      "keywords": [
+        "sugar (refined)",
+        "refined sugar"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Generally permissible; bone-char processing considerations vary by region.",
+      "category": "sweeteners",
+      "source": "Food Processing"
+    },
+    {
+      "id": "N138",
+      "keywords": [
+        "stevia"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived natural sweetener.",
+      "category": "sweeteners",
+      "source": "Food Science"
+    },
+    {
+      "id": "N139",
+      "keywords": [
+        "buttermilk powder"
+      ],
+      "status": "halal",
+      "confidence": "medium",
+      "reason": "Dairy derivative; check processing.",
+      "category": "dairy",
+      "source": "Dairy Industry"
+    },
+    {
+      "id": "N140",
+      "keywords": [
+        "skim milk powder"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Dairy product acceptable when processed properly.",
+      "category": "dairy",
+      "source": "Dairy Industry"
+    },
+    {
+      "id": "N141",
+      "keywords": [
+        "tapioca starch"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived starch acceptable.",
+      "category": "starches",
+      "source": "Food Science"
+    },
+    {
+      "id": "N142",
+      "keywords": [
+        "cassava flour"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Derived from plant root; permissible.",
+      "category": "plant",
+      "source": "Food Science"
+    },
+    {
+      "id": "N143",
+      "keywords": [
+        "mustard seed"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Spice seed, plant-derived.",
+      "category": "spices",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "N144",
+      "keywords": [
+        "garlic powder"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant spice acceptable.",
+      "category": "spices",
+      "source": "Food Science"
+    },
+    {
+      "id": "N145",
+      "keywords": [
+        "onion powder"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived seasoning.",
+      "category": "spices",
+      "source": "Food Science"
+    },
+    {
+      "id": "N146",
+      "keywords": [
+        "black pepper"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Common spice from plant source.",
+      "category": "spices",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "N147",
+      "keywords": [
+        "cumin"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived spice acceptable.",
+      "category": "spices",
+      "source": "Food Science"
+    },
+    {
+      "id": "N148",
+      "keywords": [
+        "coriander"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived spice acceptable.",
+      "category": "spices",
+      "source": "Food Science"
+    },
+    {
+      "id": "N149",
+      "keywords": [
+        "turmeric"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant root used as spice and colorant.",
+      "category": "spices",
+      "source": "General Halal Rules"
+    },
+    {
+      "id": "N150",
+      "keywords": [
+        "ginger powder"
+      ],
+      "status": "halal",
+      "confidence": "high",
+      "reason": "Plant-derived spice acceptable.",
+      "category": "spices",
+      "source": "Food Science"
+    }
+  ]
+}
